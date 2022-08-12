@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="common.css"  rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Home</title>
+    
+    <style>
+     
+
+      .do_not_click:hover {
+        font-size :xx-small;
+        text-align: right;
+        top: 50%;
+        right: 10%;
+
+      }
+
+      .do_not_click {
+        text-align: left;
+        position: fixed;
+
+      }
+    
+      #carouselExampleIndicators {
+        width:  25%;
+        height: 25%;
+      border-style: solid aquamarine;
+    border-width: 10px;  
+    }
+  
+
+
+    </style>
+  </head>
+
+  <body>
+
+     <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Cute Pets' World</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">
+            Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page1.html">What is Cute?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="page2.html">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="page3.html">Home Pets</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+   <!------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+    <h1> Welcome To Cute Pets' World! </h1>
+     
+
+
+<p>
+  Research says that cute animal websites are good for you! Are you ready to see some cute animals? Travel to the different pages to see 
+</p>
+
+ 
+
+   
+
+
+
+   
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://media.istockphoto.com/photos/sunny-cat-picture-id508030340?b=1&k=20&m=508030340&s=170667a&w=0&h=lIR673_IGN7-stwuau78q6YgoKaLI0jgNvOf8CDMBoo=" class="d-block w-100" alt="Cat Pic">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/photos/happy-cute-pet-dog-puppy-listening-ears-in-a-lavender-field-in-summer-picture-id1312489552?b=1&k=20&m=1312489552&s=170667a&w=0&h=b3Vdw6MN2ELd2bB014TlOGpRb0KIpZcSXz0FisNLPXM=" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://media.istockphoto.com/photos/best-friends-bunny-rabbit-and-chick-are-kissing-picture-id679868086?b=1&k=20&m=679868086&s=170667a&w=0&h=yFd5FS-UN7DKrNovXf8YJyAoyX7JFbvBmr3KhLWD_9k=" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+    <div class="do_not_click">
+    <button type="button" class="btn btn-danger" onclick="alert('Hey!')">Do not click me</button>
+</div>
+
+
+
+  </body>
+
+</html>

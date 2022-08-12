@@ -1,0 +1,17 @@
+
+body {
+    background-color: pink;
+    font-family: "Lucida Handwriting",  cursive;
+}
+
+h1 {
+    border-bottom: double purple;
+    width: 50%;
+}
+
+
+.centered {
+    width: 100%;	 
+    display: flex; 
+    justify-content: center;
+  }
